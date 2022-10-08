@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="app.js"></script>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #main-img{
+            width: 300px;
+            position: relative;
+        }
+
+        main{
+            display: grid;
+            place-items: center;
+            /* height: 300; */
+        }
+
+        .eye, #eyes img{
+            position: absolute;
+        }
+
+        .eye{
+            width: 10px;
+        }
+
+
+    </style>
+</head>
+<body>
+    
+    <main>
+        <img src="./Look_Morty.jpg" id="main-img" alt="">
+        <div id="eyes">
+            <img src="./left.png" alt="" class="eye" style="top:99px; right:641px">
+            <img src="./left.png" alt="" class="eye" style="top:97px; left:757px">
+            <img src="./left.png" alt="" class="eye" style="top:194px; left:619px">
+            <img src="./left.png" alt="" class="eye" style="top:187px; left:663px">
+        </div>
+    </main>
+
+
+</body>
+</html>
