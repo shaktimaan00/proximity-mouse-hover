@@ -16,7 +16,7 @@ document.addEventListener('mouseover', (e) => {
     const eyes = document.querySelectorAll('.eye');
 
     eyes.forEach(eye => {
-        eye.style.transform = `rotate(${90 + angleDeg}deg)`;
+        eye.style.transform = `rotate(${angleDeg - 90}deg)`;
     })
 
 
